@@ -4,16 +4,22 @@ body {
   display: grid;
   place-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #141312;
+  background: #202734;
   color: #f5eedc;
 }
 
 main {
   max-width: 32rem;
-  padding: 2.5rem;
-  background: #1e1c19;
-  border: 2px solid #38332c;
+  padding: 2.5rem;  
+  background: #36415A;
+  border: 2px solid #283043;
   border-radius: 8px;
+}
+.typing{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    display: flex;
 }
 
 h1 {
@@ -37,4 +43,13 @@ ul {
   display: flex;
   gap: 1.25rem;
   margin-top: 1.5rem;
+}
+
+footer{
+  position: absolute;
+  text-align: center;
+  margin-top: 695px;
+  font-size: 0.75rem;
+  color: #f5eedc;
+  opacity: 0.2;
 }

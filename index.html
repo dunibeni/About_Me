@@ -3,17 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name | Pixl Maker</title>
   <link rel="stylesheet" href="style.css">
+  <title>db | About Me</title>
 </head>
 <body>
   <main>
-    <h1>Hey, I'm Your Name 👋</h1>
-    <p>I'm building hardware and software projects on Pixl.</p>
+    <div class="typing">
+        <h1>👋<span class="auto-type"></span></h1>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Hello!", "Szia!", "Guten Tag!"],
+            typeSpeed: 35,
+            backSpeed: 35,
+            loop: true
+        })
+    </script>
+
+    <p></p>
+    
     <ul>
-      <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-      <li><a href="https://pixl.hackclub.com" target="_blank">Pixl</a></li>
+      <li><a href="https://github.com/dunibeni" target="_blank">GitHub</a></li>
+      <li><a href="https://discord.com" target="_blank">Discord</a></li>
     </ul>
   </main>
-</body>
+</body> 
+<footer>
+  <p>This is my very first HTML page, I hope it won't turn out too cheesy :D.</p>
+</footer>
 </html>
