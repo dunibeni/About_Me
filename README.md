@@ -1,6 +1,6 @@
 #About Me page
 
-A small personal website built as my first public HTML and CSS project. I’ve always wanted to create and publish a small personal website to introduce myself. 
+A small personal website built as my first public HTML and CSS project. I’ve always wanted to create and publish a small personal website to introduce myself. The initial HTML structure was based on the Pixl starter template. I built upon it by creating my own design, styling the page with CSS, and adding features such as animated text.
 
 Live demo: [Live demo](https://about-me.dunibeni09.workers.dev/)
 
