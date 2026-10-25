@@ -14,12 +14,12 @@ body {
 }
 
 main {
-  max-width: 32rem;
-  padding: 2.5rem;  
+  max-width: 40rem;
+  padding: 2rem;  
   background-color: rgba(3, 3, 3, 0.1);
   /*border: 2px solid #283043;*/
   backdrop-filter: blur(3px);
-  border-radius: 8px;
+  border-radius: 2ch;
 }
 .typing{
     width: 100%;
@@ -47,13 +47,21 @@ a:hover {
 a:active{
   color: whitesmoke;
 }
+.gear ul{
+  padding-left: 30px;
+  margin-top: 7px;
+  list-style: none;
+}
+.gear li{
+  margin-bottom: 3px;
+}
 
-ul {
+.contact ul{
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 1.25rem;
-  margin-top: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
 }
 
 footer{
