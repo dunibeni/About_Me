@@ -55,6 +55,10 @@ a:active{
 .gear li{
   margin-bottom: 3px;
 }
+.status p{
+  margin-top: 1px;
+  margin-bottom: 0;
+}
 
 .contact ul{
   list-style: none;
