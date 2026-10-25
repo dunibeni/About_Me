@@ -6,7 +6,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
   /*background: #202734;*/
   color: #f5eedc;
-  background-image: url(bg.jpg);
+  background-image: url(images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
